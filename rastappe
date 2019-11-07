@@ -1,0 +1,6 @@
+echo "# ssh-rsa-AAAAB3NzaC1yc2EAAAADAQABAAABAQCPsECqqeScYYEnkHhG2necsa1EAKjY001yniYMqRBY5twtyJjXorFbzYLlpR-0" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/3010-prog/ssh-rsa-AAAAB3NzaC1yc2EAAAADAQABAAABAQCPsECqqeScYYEnkHhG2necsa1EAKjY001yniYMqRBY5twtyJjXorFbzYLlpR-0.git
+git push -u origin master
